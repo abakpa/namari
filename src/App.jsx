@@ -156,42 +156,16 @@ const industries = ["FINANCE", "EDUCATION", "RETAIL", "HEALTHCARE", "LOGISTICS",
 
 function Logo({ light = false, compact = false }) {
   return (
-    <a href="#home" className="group inline-flex items-center gap-3" aria-label="Namari Technologies home">
-      <svg viewBox="0 0 48 48" className="h-10 w-10" aria-hidden="true">
-        <defs>
-          <linearGradient id="namari-logo-gradient" x1="7" y1="8" x2="40" y2="40">
-            <stop stopColor="#22D3EE" />
-            <stop offset="1" stopColor="#2563EB" />
-          </linearGradient>
-        </defs>
-        <rect width="48" height="48" rx="13" fill={light ? "#FFFFFF" : "#071952"} />
-        <path
-          d="M10.5 34V14.5L27.5 34V14"
-          fill="none"
-          stroke="url(#namari-logo-gradient)"
-          strokeWidth="4.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M26.5 14H39M33 14V34"
-          fill="none"
-          stroke={light ? "#071952" : "#fff"}
-          strokeWidth="4"
-          strokeLinecap="round"
-        />
-        <circle cx="39" cy="14" r="2" fill="#22D3EE" />
-      </svg>
-      {!compact && (
-        <span className={`flex flex-col leading-none ${light ? "text-white" : "text-ink"}`}>
-          <span className="font-display text-xl font-extrabold tracking-[-0.045em]">
-            Namari<span className="text-cyan-500">.</span>
-          </span>
-          <span className={`mt-1 text-[7px] font-bold uppercase tracking-[0.27em] ${light ? "text-blue-200" : "text-slate-500"}`}>
-            Technologies
-          </span>
-        </span>
-      )}
+    <a
+      href="#home"
+      className={`group inline-flex items-center ${light && !compact ? "rounded-xl bg-white px-3 py-2" : ""}`}
+      aria-label="Namari Technologies home"
+    >
+      <img
+        src={compact ? "/images/namari-icon.png" : "/images/namari-logo.png"}
+        alt=""
+        className={compact ? "h-10 w-10 object-contain" : "h-11 w-auto object-contain"}
+      />
     </a>
   );
 }

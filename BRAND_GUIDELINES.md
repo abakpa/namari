@@ -6,14 +6,15 @@ Namari Technologies helps businesses modernize and people become future-ready. T
 
 ## Logo
 
-The monogram combines a connected `N` pathway with a strong `T`. The flowing `N` represents digital connectivity and transformation, while the rising `T` represents technology, structure, and forward progress. A cyan endpoint reinforces the idea of ideas becoming measurable outcomes.
+The icon combines a dimensional `N` with a forward-pointing play shape. It represents momentum, digital execution, and the movement from idea to working technology. Cyan highlights convey energy and innovation, while the deep-blue foundation communicates trust and technical depth.
 
 - Use the full wordmark for primary brand communication.
 - Use the monogram for favicons, app icons, social avatars, and compact navigation.
 - Keep clear space around the logo equal to at least one quarter of the monogram width.
 - Minimum digital sizes: 145 px wide for the wordmark and 24 px square for the icon.
 - Use the navy tile on light or photographic backgrounds.
-- Use the white tile version on dark blue backgrounds.
+- Place the primary dark-blue wordmark on white or very light backgrounds.
+- On dark backgrounds, place the primary wordmark on a clean white holding shape to preserve contrast.
 - Do not stretch, rotate, recolor, outline, or add effects to the logo.
 
 ## Color
